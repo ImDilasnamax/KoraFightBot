@@ -1,2 +1,7 @@
 heroku3
 sqlalchemy
+DateTime
+python-dotenv
+telethon
+emoji
+requests
