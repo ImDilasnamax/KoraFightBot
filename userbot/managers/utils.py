@@ -35,7 +35,7 @@ async def edit_or_reply(
         return event
     asciich = ["*", "`", "_"]
     for i in asciich:
-        text = re.sub(rf"\{i}", "", text)
+        text = re.sub(rf"{i}", "", text)
     if aslink:
         linktext = linktext or "Message was to big so pasted to bin"
         try:
